@@ -3,7 +3,8 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'TimeSlice' do
-
+    pod 'Realm'
+    pod 'Masonry'
 end
 
 
