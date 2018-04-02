@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01438F962071E7C500E6A829 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 01438F932071E7C500E6A829 /* NSString+Util.m */; };
+		01A2B7D720720794003FFE0F /* TSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7D620720794003FFE0F /* TSBaseViewController.m */; };
 		01F9663D206B6D8D006CA5B4 /* TimeSliceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F9663C206B6D8D006CA5B4 /* TimeSliceTests.m */; };
 		01F96648206B6D8D006CA5B4 /* TimeSliceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F96647206B6D8D006CA5B4 /* TimeSliceUITests.m */; };
 		01F9665E206C8E11006CA5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F96657206C8E11006CA5B4 /* Assets.xcassets */; };
@@ -34,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01438F912071E7C500E6A829 /* UIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
+		01438F932071E7C500E6A829 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		01438F942071E7C500E6A829 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		01A2B7D520720794003FFE0F /* TSBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSBaseViewController.h; sourceTree = "<group>"; };
+		01A2B7D620720794003FFE0F /* TSBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSBaseViewController.m; sourceTree = "<group>"; };
 		01F96620206B6D8C006CA5B4 /* TimeSlice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSlice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F96638206B6D8D006CA5B4 /* TimeSliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F9663C206B6D8D006CA5B4 /* TimeSliceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeSliceTests.m; sourceTree = "<group>"; };
@@ -74,6 +81,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01438F8F2071E7C500E6A829 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01438F902071E7C500E6A829 /* Macro */,
+				01438F922071E7C500E6A829 /* Categories */,
+				01438F952071E7C500E6A829 /* Helpers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		01438F902071E7C500E6A829 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				01438F912071E7C500E6A829 /* UIMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		01438F922071E7C500E6A829 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				01438F942071E7C500E6A829 /* NSString+Util.h */,
+				01438F932071E7C500E6A829 /* NSString+Util.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		01438F952071E7C500E6A829 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		01438F972071E86100E6A829 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				01A2B7D320720723003FFE0F /* DataBase */,
+				01A2B7D420720723003FFE0F /* Network */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		01438F982071E86100E6A829 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01A2B7CD20720569003FFE0F /* Base */,
+				01A2B7CE20720569003FFE0F /* Controllers */,
+				01A2B7CC20720568003FFE0F /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		01A2B7CC20720568003FFE0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01A2B7CD20720569003FFE0F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				01A2B7D520720794003FFE0F /* TSBaseViewController.h */,
+				01A2B7D620720794003FFE0F /* TSBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		01A2B7CE20720569003FFE0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01A2B7D120720569003FFE0F /* Mission */,
+				01A2B7D020720569003FFE0F /* Archive */,
+				01A2B7CF20720569003FFE0F /* Efficiency */,
+				01A2B7D220720569003FFE0F /* Setting */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		01A2B7CF20720569003FFE0F /* Efficiency */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Efficiency;
+			sourceTree = "<group>";
+		};
+		01A2B7D020720569003FFE0F /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		01A2B7D120720569003FFE0F /* Mission */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mission;
+			sourceTree = "<group>";
+		};
+		01A2B7D220720569003FFE0F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		01A2B7D320720723003FFE0F /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		01A2B7D420720723003FFE0F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		01F96617206B6D8C006CA5B4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +226,9 @@
 		01F96622206B6D8D006CA5B4 /* TimeSlice */ = {
 			isa = PBXGroup;
 			children = (
+				01438F982071E86100E6A829 /* Classes */,
+				01438F972071E86100E6A829 /* Provider */,
+				01438F8F2071E7C500E6A829 /* Utils */,
 				01F96655206C8E11006CA5B4 /* SupportingFiles */,
 			);
 			path = TimeSlice;
@@ -125,10 +257,10 @@
 			children = (
 				01F9665C206C8E11006CA5B4 /* Resource */,
 				01F96656206C8E11006CA5B4 /* AppDelegate.h */,
+				01F9665B206C8E11006CA5B4 /* AppDelegate.m */,
 				01F96657206C8E11006CA5B4 /* Assets.xcassets */,
 				01F96658206C8E11006CA5B4 /* LaunchScreen.storyboard */,
 				01F9665A206C8E11006CA5B4 /* main.m */,
-				01F9665B206C8E11006CA5B4 /* AppDelegate.m */,
 				01F9665D206C8E11006CA5B4 /* Info.plist */,
 			);
 			path = SupportingFiles;
@@ -275,6 +407,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F96661206C8E11006CA5B4 /* AppDelegate.m in Sources */,
+				01438F962071E7C500E6A829 /* NSString+Util.m in Sources */,
+				01A2B7D720720794003FFE0F /* TSBaseViewController.m in Sources */,
 				01F96660206C8E11006CA5B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
