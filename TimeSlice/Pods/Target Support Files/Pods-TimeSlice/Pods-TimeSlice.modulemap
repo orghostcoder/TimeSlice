@@ -1,0 +1,6 @@
+framework module Pods_TimeSlice {
+  umbrella header "Pods-TimeSlice-umbrella.h"
+
+  export *
+  module * { export * }
+}

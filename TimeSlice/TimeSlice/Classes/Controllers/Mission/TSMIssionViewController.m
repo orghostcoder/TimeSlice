@@ -1,18 +1,18 @@
 //
-//  TSBaseViewController.m
+//  TSMIssionViewController.m
 //  TimeSlice
 //
 //  Created by zhao tianwei on 2018/4/2.
 //  Copyright © 2018年 TimeSlice. All rights reserved.
 //
 
-#import "TSBaseViewController.h"
+#import "TSMIssionViewController.h"
 
-@interface TSBaseViewController ()
+@interface TSMIssionViewController ()
 
 @end
 
-@implementation TSBaseViewController
+@implementation TSMIssionViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

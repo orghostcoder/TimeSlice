@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		01438F962071E7C500E6A829 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 01438F932071E7C500E6A829 /* NSString+Util.m */; };
-		01A2B7D720720794003FFE0F /* TSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7D620720794003FFE0F /* TSBaseViewController.m */; };
+		01A2B7DB207208E1003FFE0F /* TSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7DA207208E1003FFE0F /* TSBaseViewController.m */; };
+		01A2B7E12072185B003FFE0F /* TSMIssionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E02072185B003FFE0F /* TSMIssionViewController.m */; };
+		01A2B7E42072187C003FFE0F /* TSArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E32072187C003FFE0F /* TSArchiveViewController.m */; };
+		01A2B7E72072188C003FFE0F /* TSEfficiencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E62072188C003FFE0F /* TSEfficiencyViewController.m */; };
+		01A2B7EA20721899003FFE0F /* TSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E920721899003FFE0F /* TSSettingViewController.m */; };
 		01F9663D206B6D8D006CA5B4 /* TimeSliceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F9663C206B6D8D006CA5B4 /* TimeSliceTests.m */; };
 		01F96648206B6D8D006CA5B4 /* TimeSliceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F96647206B6D8D006CA5B4 /* TimeSliceUITests.m */; };
 		01F9665E206C8E11006CA5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F96657206C8E11006CA5B4 /* Assets.xcassets */; };
@@ -16,6 +20,7 @@
 		01F96660206C8E11006CA5B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F9665A206C8E11006CA5B4 /* main.m */; };
 		01F96661206C8E11006CA5B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F9665B206C8E11006CA5B4 /* AppDelegate.m */; };
 		01F96662206C8E11006CA5B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01F9665D206C8E11006CA5B4 /* Info.plist */; };
+		CE2E865363525DAEF3720E09 /* Pods_TimeSlice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D585B3F5FD02C8A1750620E /* Pods_TimeSlice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,17 @@
 		01438F912071E7C500E6A829 /* UIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
 		01438F932071E7C500E6A829 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 		01438F942071E7C500E6A829 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
-		01A2B7D520720794003FFE0F /* TSBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSBaseViewController.h; sourceTree = "<group>"; };
-		01A2B7D620720794003FFE0F /* TSBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSBaseViewController.m; sourceTree = "<group>"; };
+		01A2B7D9207208E1003FFE0F /* TSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBaseViewController.h; sourceTree = "<group>"; };
+		01A2B7DA207208E1003FFE0F /* TSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBaseViewController.m; sourceTree = "<group>"; };
+		01A2B7DE20721528003FFE0F /* TSPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPrefixHeader.pch; sourceTree = "<group>"; };
+		01A2B7DF2072185B003FFE0F /* TSMIssionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMIssionViewController.h; sourceTree = "<group>"; };
+		01A2B7E02072185B003FFE0F /* TSMIssionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMIssionViewController.m; sourceTree = "<group>"; };
+		01A2B7E22072187C003FFE0F /* TSArchiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSArchiveViewController.h; sourceTree = "<group>"; };
+		01A2B7E32072187C003FFE0F /* TSArchiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSArchiveViewController.m; sourceTree = "<group>"; };
+		01A2B7E52072188C003FFE0F /* TSEfficiencyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSEfficiencyViewController.h; sourceTree = "<group>"; };
+		01A2B7E62072188C003FFE0F /* TSEfficiencyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSEfficiencyViewController.m; sourceTree = "<group>"; };
+		01A2B7E820721899003FFE0F /* TSSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSSettingViewController.h; sourceTree = "<group>"; };
+		01A2B7E920721899003FFE0F /* TSSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSSettingViewController.m; sourceTree = "<group>"; };
 		01F96620206B6D8C006CA5B4 /* TimeSlice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSlice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F96638206B6D8D006CA5B4 /* TimeSliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F9663C206B6D8D006CA5B4 /* TimeSliceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeSliceTests.m; sourceTree = "<group>"; };
@@ -54,6 +68,9 @@
 		01F9665A206C8E11006CA5B4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01F9665B206C8E11006CA5B4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01F9665D206C8E11006CA5B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D585B3F5FD02C8A1750620E /* Pods_TimeSlice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeSlice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699155AEE41C640E3427816C /* Pods-TimeSlice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSlice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSlice/Pods-TimeSlice.debug.xcconfig"; sourceTree = "<group>"; };
+		C27C7057BB147BBF1589D7B0 /* Pods-TimeSlice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSlice.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSlice/Pods-TimeSlice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2E865363525DAEF3720E09 /* Pods_TimeSlice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +136,8 @@
 		01438F972071E86100E6A829 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
-				01A2B7D320720723003FFE0F /* DataBase */,
 				01A2B7D420720723003FFE0F /* Network */,
+				01A2B7D320720723003FFE0F /* DataBase */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -127,7 +145,6 @@
 		01438F982071E86100E6A829 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				01A2B7CD20720569003FFE0F /* Base */,
 				01A2B7CE20720569003FFE0F /* Controllers */,
 				01A2B7CC20720568003FFE0F /* Views */,
 			);
@@ -141,18 +158,11 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		01A2B7CD20720569003FFE0F /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				01A2B7D520720794003FFE0F /* TSBaseViewController.h */,
-				01A2B7D620720794003FFE0F /* TSBaseViewController.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		01A2B7CE20720569003FFE0F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				01A2B7D8207208E1003FFE0F /* Base */,
+				01A2B7DC20720927003FFE0F /* Tabbar */,
 				01A2B7D120720569003FFE0F /* Mission */,
 				01A2B7D020720569003FFE0F /* Archive */,
 				01A2B7CF20720569003FFE0F /* Efficiency */,
@@ -164,6 +174,8 @@
 		01A2B7CF20720569003FFE0F /* Efficiency */ = {
 			isa = PBXGroup;
 			children = (
+				01A2B7E52072188C003FFE0F /* TSEfficiencyViewController.h */,
+				01A2B7E62072188C003FFE0F /* TSEfficiencyViewController.m */,
 			);
 			path = Efficiency;
 			sourceTree = "<group>";
@@ -171,6 +183,8 @@
 		01A2B7D020720569003FFE0F /* Archive */ = {
 			isa = PBXGroup;
 			children = (
+				01A2B7E22072187C003FFE0F /* TSArchiveViewController.h */,
+				01A2B7E32072187C003FFE0F /* TSArchiveViewController.m */,
 			);
 			path = Archive;
 			sourceTree = "<group>";
@@ -178,6 +192,8 @@
 		01A2B7D120720569003FFE0F /* Mission */ = {
 			isa = PBXGroup;
 			children = (
+				01A2B7DF2072185B003FFE0F /* TSMIssionViewController.h */,
+				01A2B7E02072185B003FFE0F /* TSMIssionViewController.m */,
 			);
 			path = Mission;
 			sourceTree = "<group>";
@@ -185,6 +201,8 @@
 		01A2B7D220720569003FFE0F /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				01A2B7E820721899003FFE0F /* TSSettingViewController.h */,
+				01A2B7E920721899003FFE0F /* TSSettingViewController.m */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -203,6 +221,22 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		01A2B7D8207208E1003FFE0F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				01A2B7D9207208E1003FFE0F /* TSBaseViewController.h */,
+				01A2B7DA207208E1003FFE0F /* TSBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		01A2B7DC20720927003FFE0F /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
 		01F96617206B6D8C006CA5B4 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +244,8 @@
 				01F9663B206B6D8D006CA5B4 /* TimeSliceTests */,
 				01F96646206B6D8D006CA5B4 /* TimeSliceUITests */,
 				01F96621206B6D8C006CA5B4 /* Products */,
+				5BF240F33219DD201CF67453 /* Pods */,
+				F5B8D7EEB1B99F077BF68C05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -258,6 +294,7 @@
 				01F9665C206C8E11006CA5B4 /* Resource */,
 				01F96656206C8E11006CA5B4 /* AppDelegate.h */,
 				01F9665B206C8E11006CA5B4 /* AppDelegate.m */,
+				01A2B7DE20721528003FFE0F /* TSPrefixHeader.pch */,
 				01F96657206C8E11006CA5B4 /* Assets.xcassets */,
 				01F96658206C8E11006CA5B4 /* LaunchScreen.storyboard */,
 				01F9665A206C8E11006CA5B4 /* main.m */,
@@ -273,6 +310,23 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		5BF240F33219DD201CF67453 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699155AEE41C640E3427816C /* Pods-TimeSlice.debug.xcconfig */,
+				C27C7057BB147BBF1589D7B0 /* Pods-TimeSlice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5B8D7EEB1B99F077BF68C05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D585B3F5FD02C8A1750620E /* Pods_TimeSlice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01F9664C206B6D8D006CA5B4 /* Build configuration list for PBXNativeTarget "TimeSlice" */;
 			buildPhases = (
+				2D9BFE32EC3E4C52CC8E10A6 /* [CP] Check Pods Manifest.lock */,
 				01F9661C206B6D8C006CA5B4 /* Sources */,
 				01F9661D206B6D8C006CA5B4 /* Frameworks */,
 				01F9661E206B6D8C006CA5B4 /* Resources */,
+				8D4BCB1172BD50D51160DDA7 /* [CP] Embed Pods Frameworks */,
+				E89B4D29CD4BDE4C00A37881 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -401,14 +458,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D9BFE32EC3E4C52CC8E10A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeSlice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4BCB1172BD50D51160DDA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TimeSlice/Pods-TimeSlice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSlice/Pods-TimeSlice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89B4D29CD4BDE4C00A37881 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSlice/Pods-TimeSlice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01F9661C206B6D8C006CA5B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A2B7EA20721899003FFE0F /* TSSettingViewController.m in Sources */,
+				01A2B7E42072187C003FFE0F /* TSArchiveViewController.m in Sources */,
+				01A2B7E72072188C003FFE0F /* TSEfficiencyViewController.m in Sources */,
 				01F96661206C8E11006CA5B4 /* AppDelegate.m in Sources */,
 				01438F962071E7C500E6A829 /* NSString+Util.m in Sources */,
-				01A2B7D720720794003FFE0F /* TSBaseViewController.m in Sources */,
+				01A2B7E12072185B003FFE0F /* TSMIssionViewController.m in Sources */,
+				01A2B7DB207208E1003FFE0F /* TSBaseViewController.m in Sources */,
 				01F96660206C8E11006CA5B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,10 +679,12 @@
 		};
 		01F9664D206B6D8D006CA5B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699155AEE41C640E3427816C /* Pods-TimeSlice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = TimeSlice/SupportingFiles/TSPrefixHeader.pch;
 				INFOPLIST_FILE = TimeSlice/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimeSlice.TimeSlice;
@@ -577,10 +696,12 @@
 		};
 		01F9664E206B6D8D006CA5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27C7057BB147BBF1589D7B0 /* Pods-TimeSlice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = TimeSlice/SupportingFiles/TSPrefixHeader.pch;
 				INFOPLIST_FILE = TimeSlice/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimeSlice.TimeSlice;
