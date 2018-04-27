@@ -16,7 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+  
+//    [[TSTaskMediator sharedInstance]performTargetWithURL:[NSURL URLWithString:@"mission://MissionMoudle/newMission?id=1234&userid=1234545"] params:@{@"name": @"zhaotianwei"} shouldCacheTarget:YES];
     return YES;
 }
 

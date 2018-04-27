@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		01438F962071E7C500E6A829 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 01438F932071E7C500E6A829 /* NSString+Util.m */; };
+		017D5C622074B50200385243 /* TSUrlHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D5C612074B50200385243 /* TSUrlHandler.m */; };
+		017D5C652074B52800385243 /* TSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D5C642074B52800385243 /* TSTask.m */; };
+		01A12F382090786100C4949A /* TSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A12F372090786100C4949A /* TSRouter.m */; };
 		01A2B7DB207208E1003FFE0F /* TSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7DA207208E1003FFE0F /* TSBaseViewController.m */; };
 		01A2B7E12072185B003FFE0F /* TSMIssionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E02072185B003FFE0F /* TSMIssionViewController.m */; };
 		01A2B7E42072187C003FFE0F /* TSArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E32072187C003FFE0F /* TSArchiveViewController.m */; };
 		01A2B7E72072188C003FFE0F /* TSEfficiencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E62072188C003FFE0F /* TSEfficiencyViewController.m */; };
 		01A2B7EA20721899003FFE0F /* TSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E920721899003FFE0F /* TSSettingViewController.m */; };
+		01A2B7ED20722803003FFE0F /* TSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7EC20722803003FFE0F /* TSTabBarController.m */; };
+		01A2B7F0207232A9003FFE0F /* TSTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7EF207232A9003FFE0F /* TSTabbar.m */; };
+		01A2B7F3207240E9003FFE0F /* TSTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7F2207240E9003FFE0F /* TSTabBarItem.m */; };
+		01A2B7FD20737043003FFE0F /* TSTaskMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7FC20737043003FFE0F /* TSTaskMediator.m */; };
 		01F9663D206B6D8D006CA5B4 /* TimeSliceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F9663C206B6D8D006CA5B4 /* TimeSliceTests.m */; };
 		01F96648206B6D8D006CA5B4 /* TimeSliceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F96647206B6D8D006CA5B4 /* TimeSliceUITests.m */; };
 		01F9665E206C8E11006CA5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F96657206C8E11006CA5B4 /* Assets.xcassets */; };
 		01F9665F206C8E11006CA5B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F96658206C8E11006CA5B4 /* LaunchScreen.storyboard */; };
 		01F96660206C8E11006CA5B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F9665A206C8E11006CA5B4 /* main.m */; };
 		01F96661206C8E11006CA5B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F9665B206C8E11006CA5B4 /* AppDelegate.m */; };
-		01F96662206C8E11006CA5B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01F9665D206C8E11006CA5B4 /* Info.plist */; };
 		CE2E865363525DAEF3720E09 /* Pods_TimeSlice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D585B3F5FD02C8A1750620E /* Pods_TimeSlice.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +50,13 @@
 		01438F912071E7C500E6A829 /* UIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
 		01438F932071E7C500E6A829 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 		01438F942071E7C500E6A829 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		017D5C602074B50200385243 /* TSUrlHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSUrlHandler.h; sourceTree = "<group>"; };
+		017D5C612074B50200385243 /* TSUrlHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSUrlHandler.m; sourceTree = "<group>"; };
+		017D5C632074B52800385243 /* TSTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTask.h; sourceTree = "<group>"; };
+		017D5C642074B52800385243 /* TSTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTask.m; sourceTree = "<group>"; };
+		017D5C662074C6A800385243 /* Mediataor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mediataor.h; sourceTree = "<group>"; };
+		01A12F362090786100C4949A /* TSRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSRouter.h; sourceTree = "<group>"; };
+		01A12F372090786100C4949A /* TSRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSRouter.m; sourceTree = "<group>"; };
 		01A2B7D9207208E1003FFE0F /* TSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBaseViewController.h; sourceTree = "<group>"; };
 		01A2B7DA207208E1003FFE0F /* TSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBaseViewController.m; sourceTree = "<group>"; };
 		01A2B7DE20721528003FFE0F /* TSPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPrefixHeader.pch; sourceTree = "<group>"; };
@@ -55,6 +68,14 @@
 		01A2B7E62072188C003FFE0F /* TSEfficiencyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSEfficiencyViewController.m; sourceTree = "<group>"; };
 		01A2B7E820721899003FFE0F /* TSSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSSettingViewController.h; sourceTree = "<group>"; };
 		01A2B7E920721899003FFE0F /* TSSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSSettingViewController.m; sourceTree = "<group>"; };
+		01A2B7EB20722803003FFE0F /* TSTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabBarController.h; sourceTree = "<group>"; };
+		01A2B7EC20722803003FFE0F /* TSTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarController.m; sourceTree = "<group>"; };
+		01A2B7EE207232A9003FFE0F /* TSTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabbar.h; sourceTree = "<group>"; };
+		01A2B7EF207232A9003FFE0F /* TSTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabbar.m; sourceTree = "<group>"; };
+		01A2B7F1207240E9003FFE0F /* TSTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabBarItem.h; sourceTree = "<group>"; };
+		01A2B7F2207240E9003FFE0F /* TSTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarItem.m; sourceTree = "<group>"; };
+		01A2B7FB20737043003FFE0F /* TSTaskMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTaskMediator.h; sourceTree = "<group>"; };
+		01A2B7FC20737043003FFE0F /* TSTaskMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTaskMediator.m; sourceTree = "<group>"; };
 		01F96620206B6D8C006CA5B4 /* TimeSlice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSlice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F96638206B6D8D006CA5B4 /* TimeSliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F9663C206B6D8D006CA5B4 /* TimeSliceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeSliceTests.m; sourceTree = "<group>"; };
@@ -145,10 +166,22 @@
 		01438F982071E86100E6A829 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				01E4F36A2092CA39004D2D13 /* Application */,
+				01A2B7F720735918003FFE0F /* Mediator */,
+				01A12F322090773A00C4949A /* Module */,
 				01A2B7CE20720569003FFE0F /* Controllers */,
 				01A2B7CC20720568003FFE0F /* Views */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		01A12F322090773A00C4949A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				01A12F362090786100C4949A /* TSRouter.h */,
+				01A12F372090786100C4949A /* TSRouter.m */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 		01A2B7CC20720568003FFE0F /* Views */ = {
@@ -233,8 +266,51 @@
 		01A2B7DC20720927003FFE0F /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				01A2B7EB20722803003FFE0F /* TSTabBarController.h */,
+				01A2B7EC20722803003FFE0F /* TSTabBarController.m */,
+				01A2B7EE207232A9003FFE0F /* TSTabbar.h */,
+				01A2B7EF207232A9003FFE0F /* TSTabbar.m */,
+				01A2B7F1207240E9003FFE0F /* TSTabBarItem.h */,
+				01A2B7F2207240E9003FFE0F /* TSTabBarItem.m */,
 			);
 			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		01A2B7F720735918003FFE0F /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				01A2B7F820736A17003FFE0F /* Core */,
+				01A2B7F920736A17003FFE0F /* Center */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		01A2B7F820736A17003FFE0F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				017D5C662074C6A800385243 /* Mediataor.h */,
+				017D5C602074B50200385243 /* TSUrlHandler.h */,
+				017D5C612074B50200385243 /* TSUrlHandler.m */,
+				017D5C632074B52800385243 /* TSTask.h */,
+				017D5C642074B52800385243 /* TSTask.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		01A2B7F920736A17003FFE0F /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				01A2B7FB20737043003FFE0F /* TSTaskMediator.h */,
+				01A2B7FC20737043003FFE0F /* TSTaskMediator.m */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		01E4F36A2092CA39004D2D13 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		01F96617206B6D8C006CA5B4 = {
@@ -392,7 +468,7 @@
 		01F96618206B6D8C006CA5B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = TimeSlice;
 				TargetAttributes = {
 					01F9661F206B6D8C006CA5B4 = {
@@ -438,7 +514,6 @@
 			files = (
 				01F9665E206C8E11006CA5B4 /* Assets.xcassets in Resources */,
 				01F9665F206C8E11006CA5B4 /* LaunchScreen.storyboard in Resources */,
-				01F96662206C8E11006CA5B4 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,13 +594,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A2B7FD20737043003FFE0F /* TSTaskMediator.m in Sources */,
 				01A2B7EA20721899003FFE0F /* TSSettingViewController.m in Sources */,
 				01A2B7E42072187C003FFE0F /* TSArchiveViewController.m in Sources */,
+				017D5C652074B52800385243 /* TSTask.m in Sources */,
 				01A2B7E72072188C003FFE0F /* TSEfficiencyViewController.m in Sources */,
 				01F96661206C8E11006CA5B4 /* AppDelegate.m in Sources */,
 				01438F962071E7C500E6A829 /* NSString+Util.m in Sources */,
 				01A2B7E12072185B003FFE0F /* TSMIssionViewController.m in Sources */,
+				01A2B7ED20722803003FFE0F /* TSTabBarController.m in Sources */,
 				01A2B7DB207208E1003FFE0F /* TSBaseViewController.m in Sources */,
+				017D5C622074B50200385243 /* TSUrlHandler.m in Sources */,
+				01A2B7F0207232A9003FFE0F /* TSTabbar.m in Sources */,
+				01A2B7F3207240E9003FFE0F /* TSTabBarItem.m in Sources */,
+				01A12F382090786100C4949A /* TSRouter.m in Sources */,
 				01F96660206C8E11006CA5B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +669,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -594,6 +677,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -642,6 +726,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -649,6 +734,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
