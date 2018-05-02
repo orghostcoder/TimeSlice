@@ -18,6 +18,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   
 //    [[TSTaskMediator sharedInstance]performTargetWithURL:[NSURL URLWithString:@"mission://MissionMoudle/newMission?id=1234&userid=1234545"] params:@{@"name": @"zhaotianwei"} shouldCacheTarget:YES];
+    self.window = [[UIWindow alloc]initWithFrame:UIScreen.mainScreen.bounds];
+    self.theme = [[TSTheme alloc]init];
+    [self.theme loadTheme:TSThemeDefaultType];
+    self.uiProvider = [[TSUIProvider alloc]init];
+    self.bizProvider = [[TSBizProvider alloc]init];
+  
     return YES;
 }
 

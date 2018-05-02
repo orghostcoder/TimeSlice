@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"任务";
+    self.navigationItem.rightBarButtonItem = [TSUIComponent newBarButtonItemWithTarget:self action:@selector(newMission)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - private
+- (void)newMission {
+    NSDictionary *params = @{@"navigationController": self.navigationController};
+    [[TSTaskMediator sharedInstance]performTargetWithURL:[NSURL URLWithString:@"route://Router/pushToPage?module=newMission"] params:params shouldCacheTarget:YES];
 }
-*/
+
+
 
 @end

@@ -10,6 +10,11 @@
 		01438F962071E7C500E6A829 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 01438F932071E7C500E6A829 /* NSString+Util.m */; };
 		017D5C622074B50200385243 /* TSUrlHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D5C612074B50200385243 /* TSUrlHandler.m */; };
 		017D5C652074B52800385243 /* TSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D5C642074B52800385243 /* TSTask.m */; };
+		0194F42A20943007001F981D /* TSConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F42920943007001F981D /* TSConstant.m */; };
+		0194F42D20976972001F981D /* TSTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F42C20976972001F981D /* TSTheme.m */; };
+		0194F43020996340001F981D /* TSUIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F42F20996340001F981D /* TSUIComponent.m */; };
+		0194F43320996877001F981D /* TSNewMissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F43220996877001F981D /* TSNewMissionViewController.m */; };
+		0194F43620999AC8001F981D /* TSRouterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F43520999AC8001F981D /* TSRouterTool.m */; };
 		01A12F382090786100C4949A /* TSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A12F372090786100C4949A /* TSRouter.m */; };
 		01A2B7DB207208E1003FFE0F /* TSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7DA207208E1003FFE0F /* TSBaseViewController.m */; };
 		01A2B7E12072185B003FFE0F /* TSMIssionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E02072185B003FFE0F /* TSMIssionViewController.m */; };
@@ -17,9 +22,9 @@
 		01A2B7E72072188C003FFE0F /* TSEfficiencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E62072188C003FFE0F /* TSEfficiencyViewController.m */; };
 		01A2B7EA20721899003FFE0F /* TSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7E920721899003FFE0F /* TSSettingViewController.m */; };
 		01A2B7ED20722803003FFE0F /* TSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7EC20722803003FFE0F /* TSTabBarController.m */; };
-		01A2B7F0207232A9003FFE0F /* TSTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7EF207232A9003FFE0F /* TSTabbar.m */; };
-		01A2B7F3207240E9003FFE0F /* TSTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7F2207240E9003FFE0F /* TSTabBarItem.m */; };
 		01A2B7FD20737043003FFE0F /* TSTaskMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7FC20737043003FFE0F /* TSTaskMediator.m */; };
+		01E4F36D2092CB14004D2D13 /* TSUIProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4F36C2092CB14004D2D13 /* TSUIProvider.m */; };
+		01E4F3702092CB23004D2D13 /* TSBizProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4F36F2092CB23004D2D13 /* TSBizProvider.m */; };
 		01F9663D206B6D8D006CA5B4 /* TimeSliceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F9663C206B6D8D006CA5B4 /* TimeSliceTests.m */; };
 		01F96648206B6D8D006CA5B4 /* TimeSliceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F96647206B6D8D006CA5B4 /* TimeSliceUITests.m */; };
 		01F9665E206C8E11006CA5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F96657206C8E11006CA5B4 /* Assets.xcassets */; };
@@ -55,6 +60,16 @@
 		017D5C632074B52800385243 /* TSTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTask.h; sourceTree = "<group>"; };
 		017D5C642074B52800385243 /* TSTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTask.m; sourceTree = "<group>"; };
 		017D5C662074C6A800385243 /* Mediataor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mediataor.h; sourceTree = "<group>"; };
+		0194F42820943007001F981D /* TSConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSConstant.h; sourceTree = "<group>"; };
+		0194F42920943007001F981D /* TSConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSConstant.m; sourceTree = "<group>"; };
+		0194F42B20976972001F981D /* TSTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTheme.h; sourceTree = "<group>"; };
+		0194F42C20976972001F981D /* TSTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTheme.m; sourceTree = "<group>"; };
+		0194F42E20996340001F981D /* TSUIComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSUIComponent.h; sourceTree = "<group>"; };
+		0194F42F20996340001F981D /* TSUIComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSUIComponent.m; sourceTree = "<group>"; };
+		0194F43120996877001F981D /* TSNewMissionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSNewMissionViewController.h; sourceTree = "<group>"; };
+		0194F43220996877001F981D /* TSNewMissionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSNewMissionViewController.m; sourceTree = "<group>"; };
+		0194F43420999AC8001F981D /* TSRouterTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSRouterTool.h; sourceTree = "<group>"; };
+		0194F43520999AC8001F981D /* TSRouterTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSRouterTool.m; sourceTree = "<group>"; };
 		01A12F362090786100C4949A /* TSRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSRouter.h; sourceTree = "<group>"; };
 		01A12F372090786100C4949A /* TSRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSRouter.m; sourceTree = "<group>"; };
 		01A2B7D9207208E1003FFE0F /* TSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBaseViewController.h; sourceTree = "<group>"; };
@@ -70,12 +85,13 @@
 		01A2B7E920721899003FFE0F /* TSSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSSettingViewController.m; sourceTree = "<group>"; };
 		01A2B7EB20722803003FFE0F /* TSTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabBarController.h; sourceTree = "<group>"; };
 		01A2B7EC20722803003FFE0F /* TSTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarController.m; sourceTree = "<group>"; };
-		01A2B7EE207232A9003FFE0F /* TSTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabbar.h; sourceTree = "<group>"; };
-		01A2B7EF207232A9003FFE0F /* TSTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabbar.m; sourceTree = "<group>"; };
-		01A2B7F1207240E9003FFE0F /* TSTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabBarItem.h; sourceTree = "<group>"; };
-		01A2B7F2207240E9003FFE0F /* TSTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarItem.m; sourceTree = "<group>"; };
 		01A2B7FB20737043003FFE0F /* TSTaskMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTaskMediator.h; sourceTree = "<group>"; };
 		01A2B7FC20737043003FFE0F /* TSTaskMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTaskMediator.m; sourceTree = "<group>"; };
+		01E4F36B2092CB14004D2D13 /* TSUIProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSUIProvider.h; sourceTree = "<group>"; };
+		01E4F36C2092CB14004D2D13 /* TSUIProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSUIProvider.m; sourceTree = "<group>"; };
+		01E4F36E2092CB23004D2D13 /* TSBizProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSBizProvider.h; sourceTree = "<group>"; };
+		01E4F36F2092CB23004D2D13 /* TSBizProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSBizProvider.m; sourceTree = "<group>"; };
+		01E4F3712092F79F004D2D13 /* TSMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMacro.h; sourceTree = "<group>"; };
 		01F96620206B6D8C006CA5B4 /* TimeSlice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSlice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F96638206B6D8D006CA5B4 /* TimeSliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F9663C206B6D8D006CA5B4 /* TimeSliceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeSliceTests.m; sourceTree = "<group>"; };
@@ -150,6 +166,10 @@
 		01438F952071E7C500E6A829 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0194F42E20996340001F981D /* TSUIComponent.h */,
+				0194F42F20996340001F981D /* TSUIComponent.m */,
+				0194F43420999AC8001F981D /* TSRouterTool.h */,
+				0194F43520999AC8001F981D /* TSRouterTool.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -227,6 +247,8 @@
 			children = (
 				01A2B7DF2072185B003FFE0F /* TSMIssionViewController.h */,
 				01A2B7E02072185B003FFE0F /* TSMIssionViewController.m */,
+				0194F43120996877001F981D /* TSNewMissionViewController.h */,
+				0194F43220996877001F981D /* TSNewMissionViewController.m */,
 			);
 			path = Mission;
 			sourceTree = "<group>";
@@ -268,10 +290,6 @@
 			children = (
 				01A2B7EB20722803003FFE0F /* TSTabBarController.h */,
 				01A2B7EC20722803003FFE0F /* TSTabBarController.m */,
-				01A2B7EE207232A9003FFE0F /* TSTabbar.h */,
-				01A2B7EF207232A9003FFE0F /* TSTabbar.m */,
-				01A2B7F1207240E9003FFE0F /* TSTabBarItem.h */,
-				01A2B7F2207240E9003FFE0F /* TSTabBarItem.m */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -309,6 +327,15 @@
 		01E4F36A2092CA39004D2D13 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				01E4F36B2092CB14004D2D13 /* TSUIProvider.h */,
+				01E4F36C2092CB14004D2D13 /* TSUIProvider.m */,
+				01E4F36E2092CB23004D2D13 /* TSBizProvider.h */,
+				01E4F36F2092CB23004D2D13 /* TSBizProvider.m */,
+				0194F42B20976972001F981D /* TSTheme.h */,
+				0194F42C20976972001F981D /* TSTheme.m */,
+				01E4F3712092F79F004D2D13 /* TSMacro.h */,
+				0194F42820943007001F981D /* TSConstant.h */,
+				0194F42920943007001F981D /* TSConstant.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -594,20 +621,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0194F43020996340001F981D /* TSUIComponent.m in Sources */,
+				0194F42D20976972001F981D /* TSTheme.m in Sources */,
 				01A2B7FD20737043003FFE0F /* TSTaskMediator.m in Sources */,
+				0194F43620999AC8001F981D /* TSRouterTool.m in Sources */,
 				01A2B7EA20721899003FFE0F /* TSSettingViewController.m in Sources */,
 				01A2B7E42072187C003FFE0F /* TSArchiveViewController.m in Sources */,
 				017D5C652074B52800385243 /* TSTask.m in Sources */,
 				01A2B7E72072188C003FFE0F /* TSEfficiencyViewController.m in Sources */,
 				01F96661206C8E11006CA5B4 /* AppDelegate.m in Sources */,
 				01438F962071E7C500E6A829 /* NSString+Util.m in Sources */,
+				0194F43320996877001F981D /* TSNewMissionViewController.m in Sources */,
 				01A2B7E12072185B003FFE0F /* TSMIssionViewController.m in Sources */,
+				0194F42A20943007001F981D /* TSConstant.m in Sources */,
 				01A2B7ED20722803003FFE0F /* TSTabBarController.m in Sources */,
+				01E4F36D2092CB14004D2D13 /* TSUIProvider.m in Sources */,
 				01A2B7DB207208E1003FFE0F /* TSBaseViewController.m in Sources */,
 				017D5C622074B50200385243 /* TSUrlHandler.m in Sources */,
-				01A2B7F0207232A9003FFE0F /* TSTabbar.m in Sources */,
-				01A2B7F3207240E9003FFE0F /* TSTabBarItem.m in Sources */,
 				01A12F382090786100C4949A /* TSRouter.m in Sources */,
+				01E4F3702092CB23004D2D13 /* TSBizProvider.m in Sources */,
 				01F96660206C8E11006CA5B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

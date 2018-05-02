@@ -14,5 +14,13 @@
 
 #import "Realm.h"
 #import "Mediataor.h"
+#import "TSMacro.h"
+#import "UIMacro.h"
+#import "TSConstant.h"
+#import "TSTheme.h"
+#import "AppDelegate.h"
+#import "TSUIProvider.h"
+#import "TSBizProvider.h"
+#import "TSUIComponent.h"
 
 #endif /* TSPrefixHeader_pch */

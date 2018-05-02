@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class TSUIProvider;
+@class TSBizProvider;
 
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) TSUIProvider *uiProvider;
+@property (strong, nonatomic) TSBizProvider *bizProvider;
+@property (strong, nonatomic) TSTheme *theme;
 
 @end
 

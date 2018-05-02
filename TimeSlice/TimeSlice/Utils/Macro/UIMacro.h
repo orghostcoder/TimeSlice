@@ -17,9 +17,5 @@
 #define SCREEN_WIDTH    ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT    ([UIScreen mainScreen].bounds.size.height)
 
-#define FDImage(imageName) [UIImage imageNamed:imageName]
-#define FDString(key) NSLocalizedString(key, @"")
-#define FDFont(x) [UIFont systemFontOfSize:x]
-
 #endif /* UIMacro_h */
 
